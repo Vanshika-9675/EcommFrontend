@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+      'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+      'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: whitesmoke;
+}
+img {
+  height: 80px;
+}
+.card {
+  background: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+.productsWrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+.btn {
+  border: none;
+  outline: none;
+  background: #000000;
+  padding: 5px 10px;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background: #302020;
+}
+
+.heading {
+  padding: 25px 0;
+}
+
+.cartCount {
+    text-transform: uppercase;
+}
+
+.navLink {
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+  font-size: large;
+}
+
+.cartCard {
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  margin-bottom: 20px;
+  padding: 14px;
+  border-radius: 5px;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.shopping{
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.order{
+  border-left: 5px solid rgba(111, 108, 108, 0.758) ;
+  border-top: 3px solid rgba(111, 108, 108, 0.758) ;
+  padding: 15px;
+  width: 300px;
+}
+.order button{
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+}
+
+.orderWrapper{
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.orderCard{
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.area{
+  padding: 20px;
+}
+
+.logo{
+  font-size: large;
+  font-weight: 900;
+}
